@@ -116,6 +116,7 @@ hr{
     background-color:black;
     padding:100px;
     font-family:'lato';
+    overflow:hidden;
     
 }
 
@@ -142,6 +143,7 @@ hr{
     background: linear-gradient(90deg, rgba(105,19,72,1) 0%, rgba(145,6,65,1) 85%, rgba(147,5,65,1) 94%, rgba(162,0,62,1) 100%);
     padding:100px;
     font-family:'lato';
+    overflow:hidden;
     
 }
 
@@ -199,6 +201,7 @@ hr{
 .container-s1{
     height:740px;
     background-color:rgb(241, 220, 203);
+    overflow:hidden;
 }
 
 .s1gif{
@@ -230,6 +233,7 @@ hr{
  .container-s2{
     height:740px;
     background-color:rgb(204, 213, 233);
+    overflow:hidden;s
 }
 
  .s2menu{
@@ -264,6 +268,7 @@ hr{
     height:500px;
     background-color:purple;
     padding:100px;
+    overflow:hidden;
    
 }
 
@@ -293,6 +298,7 @@ p{
     height:1300px;
     background: rgb(91,191,191);
     background: linear-gradient(90deg, rgba(91,191,191,1) 0%, rgba(86,98,153,1) 100%);
+    overflow:hidden;
 }
 
 .container-research h1{
@@ -315,7 +321,7 @@ p{
         display:inline-block;
         position:relative;
         transition:.3s;
-     
+        overflow:hidden;
         margin-left:100px;
         margin-top:50px;
         border-radius:20px;
@@ -362,6 +368,7 @@ p{
           height:900px;
           background:url(defining.png);
           background-size:cover;
+          overflow:hidden;
       
 
       }
