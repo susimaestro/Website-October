@@ -1,0 +1,390 @@
+
+
+
+*{
+    overflow-x: hidden;
+}
+
+a{
+    color:black;
+
+}
+
+a:hover{
+    color:grey;
+    text-decoration:none;
+}
+
+header {
+    position: fixed;
+    padding: 30px;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+ 
+section{
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    padding:100px;
+
+}
+.nosheadsection{
+    padding:0;
+}
+
+section video{
+   
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    pointer-events:none;
+
+
+}
+
+h1{
+    font-size:60px;
+    font-family: ivypresto-headline, serif;
+    font-weight: 400;
+    font-style: regular;
+    letter-spacing:2px;
+    line-height:70px;
+    color:rgb(255, 255, 255);
+
+}
+
+.nosnos{
+    width:500px;
+   
+}
+
+.container-intro{
+    background-color:black;
+    margin-top:0px;
+    padding:100px;
+}
+
+html{
+    background-color:black;
+}
+
+p{
+    color:white;
+    font-family:'lato';
+    font-size:24px;
+    margin-top:20px;
+}
+
+.row-introtext{
+    margin-top:50px;
+}
+
+.cursor{
+    width:3rem;
+    height:3rem;
+    border:2px solid rgb(74, 95, 165);
+    background-color:rgb(74, 95, 165);
+    border-radius:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    pointer-events:none;
+    transition:all 0.3s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+    z-index:-1;
+    backdrop-filter:blur(3px);
+}   
+
+hr{
+    background-color:white;
+    margin-right:475px;
+}
+
+
+
+.container-ph{
+    height:600px;
+    background-color:black;
+    padding:100px;
+    font-family:'lato';
+    
+}
+
+.container-ph h1{
+    font-size:50px;
+    font-family:'lato';
+    
+  
+}
+
+.container-ph img{
+    width:50px;
+  
+}
+.container-ph h2{
+    font-size:24px;
+    font-family:'lato';
+    color:white;
+   
+}
+.container-pgs{
+    height:600px;
+    background: rgb(105,19,72);
+    background: linear-gradient(90deg, rgba(105,19,72,1) 0%, rgba(145,6,65,1) 85%, rgba(147,5,65,1) 94%, rgba(162,0,62,1) 100%);
+    padding:100px;
+    font-family:'lato';
+    
+}
+
+.container-pgs h1{
+    font-size:50px;
+    font-family:'lato';
+  
+}
+.container-ph h1{
+    font-size:50px;
+    font-family:'lato';
+  
+}
+
+.container-ph img{
+    width:50px;
+  
+}
+.container-pgs h2{
+    font-size:24px;
+    font-family:'lato';
+    color:white;
+   
+}
+
+.container-ph h2{
+    font-size:24px;
+    font-family:'lato';
+    color:white;
+   
+}
+.case{
+    margin-bottom:50px;
+    font-weight:200;
+}
+
+
+.container-pgs p{
+    margin-top:0;
+    font-size:24px;
+    line-height:35px;
+    font-weight:200;
+   
+}
+
+.container-ph p{
+    margin-top:0;
+    font-size:24px;
+    line-height:35px;
+    font-weight:200;
+   
+}
+
+
+.container-s1{
+    height:740px;
+    background-color:rgb(241, 220, 203);
+}
+
+.s1gif{
+    width:600px;
+    padding-left:200px;
+    padding-top:100px;
+    
+    
+}
+
+.container-s1 h1{
+   padding-right:300px;
+   padding-top:300px;
+    font-size:18px;
+    line-height:20px;
+    color:rgb(0, 0, 0);
+    font-family:'lato';
+}
+
+.container-s2 h1{
+    padding-left:300px;
+    padding-top:300px;
+     font-size:18px;
+     line-height:20px;
+     color:rgb(0, 0, 0);
+     font-family:'lato';
+ }
+
+ .container-s2{
+    height:740px;
+    background-color:rgb(204, 213, 233);
+}
+
+ .s2menu{
+     width:700px;
+     padding-right:200px;
+     padding-top:100px;
+ }
+
+ .container-s3{
+    height:740px;
+    background-color:rgb(241, 220, 203);
+}
+.container-s3 h1{
+    padding-right:200px;
+    padding-left:100px;
+    padding-top:300px;
+     font-size:18px;
+     line-height:20px;
+     color:rgb(0, 0, 0);
+     font-family:'lato';
+ }
+
+ .s3pic{
+    width:700px;
+    padding-left:100px;
+    padding-top:200px;
+  
+    
+ }
+
+ .container-theprocess{
+    height:500px;
+    background-color:purple;
+    padding:100px;
+   
+}
+
+.container-theprocess h1{
+    font-size:40px;
+}
+
+.container-theprocess p{
+    margin-top:0;
+}
+
+.theprocesstxt{
+    font-size:70px;
+}
+
+.nosmobileimg{
+    height:700px;
+    background:url(nosmobiles.png);
+    background-size:cover;
+}
+
+p{
+    font-weight:200;
+}
+
+.container-research{
+    height:1300px;
+    background: rgb(91,191,191);
+    background: linear-gradient(90deg, rgba(91,191,191,1) 0%, rgba(86,98,153,1) 100%);
+}
+
+.container-research h1{
+    font-family:'lato';
+    font-size:50px;
+    font-weight:200;
+    padding-left:100px;
+    padding-top:100px;
+}
+
+.container-research p{
+    padding-left:100px;
+    padding-right:100px;
+}
+
+
+    .textWithBlurredBg{
+        width:500px;
+        height:auto;
+        display:inline-block;
+        position:relative;
+        transition:.3s;
+     
+        margin-left:100px;
+        margin-top:50px;
+        border-radius:20px;
+      }
+      
+      .textWithBlurredBg img{
+        width:100%;
+        height:100%;
+        transition:.3s;
+        border-radius:4px;
+      }
+      
+      .textWithBlurredBg:hover img{
+        filter:blur(2px) brightness(60%);
+        box-shadow:0 0 16px cyan;
+      }
+       
+      .textWithBlurredBg :not(img){
+        position:absolute;
+        z-index:1;
+        top:30%;
+        width:100%;
+        text-align:center;
+        color:#fff;
+        opacity:0;
+        transition:.3s;
+      }
+      
+      .textWithBlurredBg h3{
+        top:50%
+      }
+      
+      .textWithBlurredBg:hover :not(img){
+        opacity:1;
+      }
+
+      .textWithBlurredBg h2{
+          font-family:'lato';
+          font-weight:200;
+          font-size:24px;
+      }
+
+      .container-defining{
+          height:900px;
+          background:url(defining.png);
+          background-size:cover;
+      
+
+      }
+
+      .container-defining h1{
+       margin-left:100px;
+       padding-top:100px;
+       font-family:'lato';
+       font-size:50px;
+       font-weight:200;
+       color:rgb(36, 35, 35);
+       margin-right:90px;
+    }
+
+    .container-defining p{
+        margin-left:100px;
+      
+        font-size:24px;
+        font-weight:200;
+        color:rgb(36, 35, 35);
+        margin-right:90px;
+     }
+
+     h1{
+         font-family:'lato';
+     }
