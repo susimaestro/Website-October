@@ -362,6 +362,7 @@ p{
           font-family:'lato';
           font-weight:200;
           font-size:24px;
+          overflow:hidden;
       }
 
       .container-defining{
@@ -381,6 +382,7 @@ p{
        font-weight:200;
        color:rgb(36, 35, 35);
        margin-right:90px;
+       overflow:hidden;
     }
 
     .container-defining p{
@@ -390,8 +392,128 @@ p{
         font-weight:200;
         color:rgb(36, 35, 35);
         margin-right:90px;
+        overflow:hidden;
      }
 
      h1{
          font-family:'lato';
+         font-weight:200;
+         overflow:hidden;
      }
+
+     .container-dp{
+         height:750px;
+         background-color:rgb(236, 236, 236);
+         overflow:hidden;
+     }
+
+     .container-dp h1{
+         margin-left:100px;
+         margin-right:100px;
+         padding-top:100px;
+         color:rgb(34, 34, 34);
+         overflow:hidden;
+     }
+
+     .container-dp p{
+        margin-left:100px;
+        margin-right:100px;
+        color:rgb(34, 34, 34);
+        overflow:hidden;
+       
+    }
+
+    .container-dp img{
+        margin-top:-100px;
+        overflow:hidden;
+    }
+
+    .post{
+        width:630px;
+        overflow:hidden;
+    }
+
+    .container-proto{
+        height:1500px;
+        background-color:black;
+        color:white;
+        overflow:hidden;
+       
+    }
+
+
+
+    .container-proto a{
+        color:pink;
+    
+    }
+
+    .container-proto h1{
+        margin-left:100px;
+        margin-right:100px;
+        padding-top:100px;
+    }
+
+    .container-proto p{
+        margin-left:100px;
+        margin-right:100px;
+    }
+
+  .container-proto img{
+      width:420px;
+      height:240px;
+      border-radius:20px;
+      margin-left:100px;
+      margin-top:50px;
+      transition:0.5s ease-in-out;
+  }
+
+.container-proto img:hover{
+    opacity:0.5;
+}
+
+iframe{
+    margin-left:100px;
+    margin-top:100px;
+}
+
+.nosmobile{
+    width:200px;
+    margin-top:100px;
+}
+
+.container-last{
+    height:750px;
+    background-color:white;
+
+
+}
+
+.container-last h1{
+    margin-left:100px;
+    margin-right:100px;
+    padding-top:100px;
+    color:rgb(29, 29, 29);
+}
+
+.container-last h2{
+    margin-left:100px;
+    margin-right:100px;
+    padding-top:150px;
+    color:rgb(29, 29, 29);
+    font-family:'lato';
+    font-weight:200;
+}
+
+
+.container-last p{
+    margin-left:100px;
+    margin-right:100px;
+    color:rgb(29, 29, 29);
+   
+}
+
+.tiffintop{
+    width:400px;
+    margin-right:100px;
+}
