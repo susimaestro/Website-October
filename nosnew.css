@@ -434,13 +434,25 @@ p{
     }
 
     .container-proto{
-        height:1500px;
-        background-color:black;
+        height:2100px;
+        background-color:#212121;
         color:white;
         overflow:hidden;
        
     }
 
+    .improv{
+        margin-top:150px;
+        margin-left:100px;
+        font-size:20px;
+    }
+
+
+    .improv2{
+        margin-top:100px;
+        margin-right:100px;
+        font-size:20px;
+    }
 
 
     .container-proto a{
@@ -478,8 +490,10 @@ iframe{
 }
 
 .nosmobile{
-    width:200px;
+    width:500px;
     margin-top:100px;
+    margin-right:50px;
+    border-radius:100px;
 }
 
 .container-last{
