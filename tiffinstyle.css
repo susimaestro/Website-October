@@ -586,7 +586,7 @@ p{
 .container-style{
     height:900px;
     background: #824F49;
-    background: linear-gradient(90deg, rgb(119, 63, 59) 0%, rgb(150, 100, 77) 100%);
+    background: linear-gradient(90deg, rgb(119, 63, 59) 0%, rgb(175, 147, 134) 100%);
     color:black;
     overflow:hidden;
 
