@@ -565,7 +565,7 @@ iframe{
 
 
 .container-quote{
-    height:500px;
+    height:550px;
     background: rgb(143,178,120);
     background: linear-gradient(90deg, rgba(143,178,120,1) 0%, rgba(86,153,97,1) 100%);
     overflow:hidden;
@@ -585,8 +585,8 @@ p{
 
 .container-style{
     height:800px;
-    background: rgb(184,159,81);
-    background: linear-gradient(90deg, rgba(184,159,81,1) 0%, rgba(152,90,37,1) 100%);
+    background: rgb(119, 47, 13);
+    background: linear-gradient(90deg, rgb(161, 64, 8) 0%, rgba(152,90,37,1) 100%);
     color:black;
     overflow:hidden;
 
