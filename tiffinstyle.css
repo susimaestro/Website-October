@@ -584,7 +584,7 @@ p{
 }
 
 .container-style{
-    height:850px;
+    height:900px;
     background: #824F49;
     background: linear-gradient(90deg, rgb(119, 63, 59) 0%, rgb(150, 100, 77) 100%);
     color:black;
@@ -608,7 +608,8 @@ p{
 
 .container-style img{
     margin-top:50px;
-    width:300px;
+    width:280px;
     border-radius:20px;
     margin-left:100px;
+    margin-right:20px;
 }
