@@ -916,6 +916,7 @@ a:hover{
         height: 100%;
         width: 100%;
         display: table;
+        list-style:none;
     }
     
     .page-menu {
@@ -927,10 +928,12 @@ a:hover{
     .page-menu li {
         line-height: 50px;
         margin-left: -25px;
+        list-style: none;
     }
     
     .page-menu li:last-child {
         line-height: 90px;
+        list-style: none;
     }
     
     .page-menu li a {
@@ -940,6 +943,7 @@ a:hover{
         font-weight: 500;
         text-decoration:none;
         font-family: ivypresto-headline, serif;
+        list-style: none;
          
     }
     
@@ -1018,6 +1022,8 @@ a:hover{
     transition: opacity 0.3s 0s, visibility 0s 0.3s;
     font-family:'Raleway','Helvetica';
     text-decoration:none;
+    list-style:none;
+ 
 }
 
 /* Full Menu */
@@ -1040,6 +1046,7 @@ a:hover{
     opacity: 0;     
     transform: scale(0);
     visibility: 0s 0.3s, opacity 0.3s 0s;
+    list-style:none;
      
     transition: transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
 }
@@ -1330,3 +1337,4 @@ h1{
 
 .batt:hover{
  background-color:rgb(74, 95, 165);
+}
