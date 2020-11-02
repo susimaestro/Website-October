@@ -9,7 +9,7 @@
     background-size:cover;
     height:100vh;
     width:100%;
-    z-index:1;
+    z-index:-3;
 }
 
 .masthead-brand{
@@ -31,7 +31,7 @@
 .kvideo{
     width:100%;
     height:120px;
-    z-index:-1;
+    z-index:-3;
 }
 
 .kleo2{
@@ -39,7 +39,7 @@
     background-size:cover;
     height:100vh;
     width:100%;
-    z-index:1;
+    z-index:-3;
 }
 
 
@@ -48,7 +48,7 @@
     background-size:cover;
     height:100vh;
     width:100%;
-    z-index:1;
+    z-index:-3;
 }
 
 
@@ -57,7 +57,7 @@
     background-size:cover;
     height:100vh;
     width:100%;
-    z-index:1;
+    z-index:-3;
 }
 
 .cursor{
@@ -72,6 +72,6 @@
     transition:all 0.3s ease;
     transition-property:background, transform;
     transform-origin: 100% 100%;
-    z-index:-1;
+    z-index:1;
     backdrop-filter:blur(3px);
 }   
