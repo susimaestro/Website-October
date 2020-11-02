@@ -63,8 +63,8 @@
 .cursor{
     width:3rem;
     height:3rem;
-    border:2px solid rgb(74, 95, 165);
-    background-color:rgb(74, 95, 165);
+    border:2px solid #917d7a;
+    background-color:#917d7a;
     border-radius:50%;
     position:absolute;
     transform: translate(-50%,-50%);
