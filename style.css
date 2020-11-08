@@ -745,6 +745,11 @@ header img{
     -webkit-transition: opacity .5s .25s ease-out;
     transition: opacity 1s .25s ease-out;
     margin-top:10px;
+ 
+ 
+    width:100%;
+    z-index:-6;
+
   }
   
   .newintro.is-visible {
@@ -825,7 +830,7 @@ footer{
     margin-top:100px;
     font-family: ivypresto-headline, serif;
     font-size:24px;
-    height:200px;
+    height:520px;
   
   
 }
