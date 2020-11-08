@@ -532,3 +532,53 @@ iframe{
     margin-right:100px;
 }
 
+
+
+  
+  
+  footer{
+    justify-content:center;
+    margin:20px;
+    margin-top:100px;
+    font-family: ivypresto-headline, serif;
+    font-size:24px;
+    height:500px;
+    overflow:hidden;
+  
+  
+  }
+  
+  footer img{
+    width:200px;
+    margin-left:20px;
+    margin-top:20px;
+    border-radius:10px;
+    overflow:hidden;
+   
+  
+  
+  }
+  
+  footer a{
+    font-size:60px;
+    transition:0.4s ease-in-out;
+    overflow:hidden;
+  }
+  
+  footer a:hover{
+    opacity:0.2;
+  }
+  
+
+  
+  footer h5{
+    font-size:16px;
+  
+  }
+
+  .footersep{
+    background-color:black;
+    width:100%;
+    opacity:0.7;
+    border:3px solid;
+}
