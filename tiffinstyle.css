@@ -62,10 +62,20 @@ h1{
 
 }
 
-.masthead-brand a{
-    color:white;
+.masthead-brand{
+    position:fixed;
+    margin-left:10px;
+    padding-top:0px;
 }
 
+
+.masthead-brand:hover{
+    opacity:0.5;
+}
+
+.masthead-brand a{
+   text-decoration:none;
+}
 .nosnos{
     width:700px;
    
@@ -204,6 +214,7 @@ padding:100px;
 .case{
     margin-bottom:50px;
     font-weight:200;
+    font-size:2rem;
 }
 
 
@@ -464,13 +475,22 @@ p{
     }
 
     .container-proto{
-        height:1250px;
+        height:900px;
         background: rgb(134, 134, 134);
 background: linear-gradient(90deg, rgb(155, 155, 154) 0%, rgb(70, 71, 71) 100%);
         color:white;
         overflow:hidden;
        
     }
+
+    .container-hifi{
+        background:url(tiffinmainp.png);
+        background-size:cover;
+        height:100vh;
+        width:100%;
+
+    }
+
 
     .improv{
         margin-top:150px;
@@ -615,57 +635,100 @@ p{
 }
 
 
-footer{
-    justify-content:center;
-    margin:20px;
-    margin-top:100px;
-    font-family: ivypresto-headline, serif;
-    font-size:24px;
-    height:500px;
-    overflow:hidden;
+
+
+
+.container-footer{
+    max-width: 70rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+    padding-top:150px;
+    padding-bottom:50px;
     
-
-  
-  
 }
 
-footer img{
-    width:200px;
-    margin-left:20px;
-    margin-top:20px;
-    border-radius:10px;
-    overflow:hidden;
-
-
+.images img{
+    width:100px;
 }
 
-footer a{
-    font-size:60px;
-    transition:0.4s ease-in-out;
-    overflow:hidden;
-}
-
-footer a:hover{
-    opacity:0.2;
-}
-
-
-
-footer h5{
-    font-size:16px;
-}
-footer a{
-    font-family: ivypresto-headline, serif;
-}
-
-footer p{
-    font-family: ivypresto-headline, serif;
-    margin-bottom:50px;
-}
-
-.footersep{
-    background-color:black;
+.images{
     width:100%;
-    opacity:0.7;
-    border:1px solid;
+}
+
+h1{
+    font-weight:200;
+    font-family:'Lato';
+    font-size:2rem;
+
+}
+
+h3{ 
+    font-weight:200;
+    font-family:'Lato';
+    font-size:2rem;
+
+}
+h2{ 
+    font-weight:200;
+    font-family:'Lato';
+    font-size:2rem;
+
+}
+
+p{
+    font-weight:200;
+    font-family:'Lato';
+    font-size:1.2rem;
+}
+
+.container-intro h1{
+font-size:3.5rem;
+}
+
+.container-intro p{
+    font-size:1.2rem;
+    }
+
+.container-pgs h1{
+    font-size:2rem;
+}
+
+.container-pgs p{
+    font-size:1.2rem;
+}
+
+.container-ph h1{
+    font-size:2rem;
+}
+
+.container-ph p{
+    font-size:1.2rem;
+}
+
+.container-ph img{
+    width:40px;
+}
+
+.container-quote h1{
+    font-size:2rem;
+}
+
+.container-research h1{
+    font-size:2rem;
+}
+
+.container-research p{
+    font-size:1.2rem;
+
+}
+
+.container-defining h1{
+    font-size:2rem;
+    margin-top:20%;
+}
+
+.container-defining p{
+    font-size:1.2rem;
+
+
 }
