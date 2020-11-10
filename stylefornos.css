@@ -605,6 +605,18 @@ background: linear-gradient(90deg, rgba(148,66,49,1) 0%, rgba(152,37,108,1) 100%
     padding-left:15%;
 }
 
+.masthead-brand{
+    color:white;
+    margin-left:-80px;
+    position:fixed;
+    text-decoration:none;
+}
+
+.masthead-brand a:hover{
+ 
+    text-decoration:none;
+}
+
 
 
 
