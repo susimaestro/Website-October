@@ -833,20 +833,7 @@ height:100vh;
     
 }
 
-.masthead-brand{
-    position:fixed;
-    margin-left:-80px;
-    padding-top:0px;
-}
 
-
-.masthead-brand:hover{
-    opacity:0.5;
-}
-
-.masthead-brand a{
-   text-decoration:none;
-}
 
 .container-intro{
 height:100vh;
@@ -915,3 +902,21 @@ background-color: black;
         padding-top:15%;
      
       }
+
+      .transition-fade{
+        opacity:1;
+        transition:500ms;
+        transform:translateX(0);
+        transform-origin:left;
+    
+    }
+    
+    .html.is-animating .transition-fade{
+        opacity:1;
+        transform:translateX(100%);
+    }
+    .html.is-leaving .transition-fade{
+        opacity:0;
+        transform:translateX(0);
+    }
+    
