@@ -14,8 +14,7 @@ body{
     max-width: 70rem;
     padding: 0 2rem;
     margin: 0 auto;
-    background:url(aboutbkg.png);
-    background-size:cover;
+  
 }
 .container-footer{
     max-width: 70rem;
@@ -307,9 +306,10 @@ section .containern > *{
 
 .title{
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size:4rem;
     margin-bottom: 1rem;
     padding-bottom: .5rem;
+    width:900px;
     position: relative;
 }
 
@@ -416,4 +416,8 @@ button{
     padding-left:20px;
     padding-right:20px;
     border-radius:30px;
+}
+
+.titlef{
+    font-size:1.5rem;
 }
