@@ -512,3 +512,10 @@ video{
     margin-top:300px;
 }
 
+.container-learnings{
+    background:url(learningscar.png);
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    margin-top:300px;
+}
