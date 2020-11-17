@@ -548,3 +548,39 @@ color:white;
         }
 
     }
+
+    /* IPAD TABLET SIZE*/
+    @media screen and (max-width: 1024px){
+      
+        .big-title{
+            top:20%;
+        }
+
+        .title{
+            font-size:2.6rem;
+            width:500px;
+        }
+
+        .nos1{
+            left:1%;
+            width:100%;
+            bottom:65%;
+        }
+        .porto1{
+            left:55%;
+            bottom:70%;
+            width:40%;
+        }
+
+        .tiffin1{
+            opacity:0;
+        }
+        
+        .tiffin2{
+            left:3%;
+            top:40%;
+        }
+
+
+
+        }
