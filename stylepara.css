@@ -473,23 +473,42 @@ body {
     width:100%;
 }
 
+/* MOBILE LESS THAN 400*/ 
+@media screen and (max-width: 400px){
+    .big-title{
+        font-size:2rem;
+        margin-top:60%;
+     
+    }
+
+    .title{
+        width:300px;
+        color:white;
+        }
+
+    }
+
 
 /* MOBILE PIXEL */
 
-@media screen and (max-width: 411px){
+@media screen and (max-width: 412px){
 .big-title{
-    font-size:2rem;
-    margin-top:-65%;
+    font-size:1.5rem;
+    line-height:2rem;
+    margin-top:-75%;
+    left:-15%;
+ 
  
 }
 
 .title{
-width:350px;
+width:280px;
 color:white;
+margin-left:-10%;
 }
 
 .nos1{
-    left:1%;
+    left:-5%;
     width:100%;
     bottom:70%;
 }
@@ -519,7 +538,7 @@ color:white;
 }
 
 .tiffin2{
-    left:-40%;
+    left:-45%;
     top:30%;
 }
 
@@ -534,23 +553,18 @@ color:white;
 }
 
 
-/* MOBILE LESS THAN 400*/ 
-@media screen and (max-width: 400px){
-    .big-title{
-        font-size:2rem;
-        margin-top:60%;
-     
-    }
 
-    .title{
-        width:300px;
-        color:white;
+
+/* SURFACE DUO*/
+    @media screen and (min-width: 500px max-width: 720px){
+        .big-title{
+            font-size:1rem;
         }
-
     }
+      
 
     /* IPAD TABLET SIZE*/
-    @media screen and (max-width: 1024px){
+    @media screen and (min-width: 721px max-width: 1024px){
       
         .big-title{
             top:20%;
@@ -581,12 +595,10 @@ color:white;
             top:40%;
         }
 
-
-
         }
 
         /* IPAD PRO TABLET SIZE*/
-    @media screen and (max-width: 1366px){
+    @media screen and (min-width:1025 max-width: 1366px){
       
         .big-title{
             top:20%;
@@ -636,3 +648,5 @@ color:white;
             line-height:5rem;
         }
         }
+
+       
