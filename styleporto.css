@@ -305,7 +305,7 @@ section .container > *{
     }
 }
 .masthead-brand{
-    color:white;
+    color:rgb(50, 49, 49);
     margin-left:-80px;
     margin-top:-30px;
     position:fixed;
