@@ -475,53 +475,8 @@ body {
 
 
 
-
-
-
-/* SURFACE DUO*/
-    @media screen and (min-width: 500px max-width: 720px){
-        .big-title{
-            font-size:1rem;
-        }
-    }
-      
-
-    /* IPAD TABLET SIZE*/
-    @media screen and (min-width: 768px max-width: 1024px){
-      
-        .big-title{
-            top:10%;
-        }
-
-        .title{
-            font-size:2.6rem;
-            width:500px;
-        }
-
-        .nos1{
-            left:1%;
-            width:100%;
-            bottom:65%;
-        }
-        .porto1{
-            left:55%;
-            bottom:70%;
-            width:40%;
-        }
-
-        .tiffin1{
-            opacity:0;
-        }
-        
-        .tiffin2{
-            left:3%;
-            top:40%;
-        }
-
-        }
-
-        /* IPAD PRO TABLET SIZE*/
-    @media screen and (min-width:1025 max-width: 1366px){
+      /* IPAD PRO TABLET SIZE*/
+      @media screen and (min-width:1025 max-width: 1366px){
       
         .big-title{
             top:20%;
@@ -572,6 +527,99 @@ body {
         }
         }
 
+
+
+
+
+
+    /* IPAD TABLET SIZE*/
+    @media screen and (min-width: 768px max-width: 1024px){
+      
+        .big-title{
+            top:10%;
+        }
+
+        .title{
+            font-size:2.6rem;
+            width:500px;
+        }
+
+        .nos1{
+            left:1%;
+            width:100%;
+            bottom:65%;
+        }
+        .porto1{
+            left:55%;
+            bottom:70%;
+            width:40%;
+        }
+
+        .tiffin1{
+            opacity:0;
+        }
+        
+        .tiffin2{
+            left:3%;
+            top:40%;
+        }
+
+        }
+
+  
+
+/* SURFACE DUO*/
+@media screen and (max-width: 720px){
+    .big-title{
+        font-size:1rem;
+    }
+}
+  
+
+/* IPHONE 6,7,8 */
+@media screen and (max-width:414px) {
+    .big-title{
+        font-size:2rem;
+        line-height:2rem;
+        top:10%;
+    }
+
+    .title{
+        width:280px;
+    }
+
+    .nos1{
+        left:1%;
+        width:100%;
+        top:-10%;
+    }
+
+    .porto1{
+        left:40%;
+        width:50%;
+        top:-25%;
+    }
+    .tiffin1{
+        opacity:0;
+    }
+    
+    .tiffin2{
+        left:-10%;
+        top:30%;
+        width:80%;
+    }
+
+    .big-titlet{
+     
+        top:30%;
+        margin-left:5%;
+        width:250px;
+        font-size:2.5rem;
+        line-height:2.2rem;
+
+    }
+
+}
 
 
 
@@ -627,6 +675,7 @@ body {
     .tiffin2{
         left:-45%;
         top:30%;
+        width:100%;
     }
     
     .kleodisp{
