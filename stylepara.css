@@ -473,84 +473,7 @@ body {
     width:100%;
 }
 
-/* MOBILE LESS THAN 400*/ 
-@media screen and (max-width: 400px){
-    .big-title{
-        font-size:2rem;
-        margin-top:60%;
-     
-    }
 
-    .title{
-        width:300px;
-        color:white;
-        }
-
-    }
-
-
-/* MOBILE PIXEL */
-
-@media screen and (max-width: 412px){
-.big-title{
-    font-size:1.5rem;
-    line-height:2rem;
-    margin-top:-75%;
-    left:-15%;
- 
- 
-}
-
-.title{
-width:280px;
-color:white;
-margin-left:-10%;
-}
-
-.nos1{
-    left:-5%;
-    width:100%;
-    bottom:70%;
-}
-
-.big-titlen{
-    font-size:2rem; 
-    line-height:2.5rem;
-    margin-top:20%;
-}
-
-
-.big-titlet{
-    font-size:2rem; 
-    line-height:2.5rem;
-    width:250px;
-    text-align:left;
-}
-
-.porto1{
-    left:15%;
-    bottom:70%;
-    width:60%;
-}
-
-.tiffin1{
-    opacity:0;
-}
-
-.tiffin2{
-    left:-45%;
-    top:30%;
-}
-
-.kleodisp{
-    opacity:1;
-    width:80%;
-    left:-10%;
- 
-}
-
-
-}
 
 
 
@@ -564,10 +487,10 @@ margin-left:-10%;
       
 
     /* IPAD TABLET SIZE*/
-    @media screen and (min-width: 721px max-width: 1024px){
+    @media screen and (min-width: 768px max-width: 1024px){
       
         .big-title{
-            top:20%;
+            top:10%;
         }
 
         .title{
@@ -649,4 +572,87 @@ margin-left:-10%;
         }
         }
 
-       
+
+
+
+
+/* MOBILE PIXEL */
+
+@media screen and (max-width: 412px){
+    .big-title{
+        font-size:1.5rem;
+        line-height:2rem;
+        margin-top:-75%;
+        left:-15%;
+     
+     
+    }
+    
+    .title{
+    width:280px;
+    color:white;
+    margin-left:-10%;
+    }
+    
+    .nos1{
+        left:-5%;
+        width:100%;
+        bottom:70%;
+    }
+    
+    .big-titlen{
+        font-size:2rem; 
+        line-height:2.5rem;
+        margin-top:20%;
+    }
+    
+    
+    .big-titlet{
+        font-size:2rem; 
+        line-height:2.5rem;
+        width:250px;
+        text-align:left;
+    }
+    
+    .porto1{
+        left:15%;
+        bottom:70%;
+        width:60%;
+    }
+    
+    .tiffin1{
+        opacity:0;
+    }
+    
+    .tiffin2{
+        left:-45%;
+        top:30%;
+    }
+    
+    .kleodisp{
+        opacity:1;
+        width:80%;
+        left:-10%;
+     
+    }
+    
+    
+    }
+
+    
+       /* MOBILE LESS THAN 400*/ 
+@media screen and (max-width: 375px){
+    .big-title{
+        top:10%;
+        font-size:2rem;
+        line-height:2rem;
+    }
+      
+     
+ 
+     .title{
+         width:300px;
+         color:white;
+         }
+ 
+     }
