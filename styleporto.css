@@ -169,14 +169,6 @@ nav .container{
     font-weight: 300;
 }
 
-.hamburger-menu{
-    width: 1.55rem;
-    height: 1.5rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
 
 .bar{
     position: relative;
@@ -232,7 +224,7 @@ section .container{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 section img{
@@ -260,14 +252,6 @@ section .container > *{
     position: relative;
 }
 
-.border{
-    position: absolute;
-    width: 0%;
-    height: 3px;
-    background-color: #fff;
-    bottom: 0;
-    left: 0;
-}
 
 .shadow{
     position: absolute;
@@ -283,16 +267,7 @@ section .container > *{
     opacity: 0;
 }
 
-@media (max-width: 850px){
-    section .container{
-        grid-template-columns: 1fr;
-    }
-}
 
-@media(max-width: 600px){
-    .big-title{
-        font-size: 2rem
-    }
 
     .text{
         font-size: .8rem;
