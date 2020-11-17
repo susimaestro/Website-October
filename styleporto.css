@@ -89,9 +89,9 @@ header:after{
 }
 .porto1{
     position: absolute;
-    width: 90%;
+    width: 70%;
     bottom: -600px;
-    left: -100px;
+    left: -0px;
     z-index: 25;
 }
 
@@ -105,7 +105,7 @@ header:after{
 }
 .porto2{
     position: absolute;
-    width: 90%;
+    width: 80%;
     bottom: -600px;
     left: 500px;
     z-index: 23;
@@ -121,8 +121,8 @@ header:after{
 
 .porto3{
     position: absolute;
-    width:100%;
-    left:100px;
+    width:90%;
+    left:150px;
     bottom: 380px;
     z-index: 25;
 }
