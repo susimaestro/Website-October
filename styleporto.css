@@ -267,7 +267,16 @@ section .container > *{
     opacity: 0;
 }
 
+@media (max-width: 850px){
+    section .container{
+        grid-template-columns: 1fr;
+    }
+}
 
+@media(max-width: 600px){
+    .big-title{
+        font-size: 2rem
+    }
 
     .text{
         font-size: .8rem;
