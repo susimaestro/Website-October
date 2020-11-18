@@ -240,11 +240,12 @@ nav .container{
     line-height: 4rem;
     top: calc(50% - 2rem);
     width: 50%;
-    margin-left:10%;
-    text-align: center;
+    margin-left:5%;
+    text-align: left;
     font-size: 3rem;
     font-weight: 600;
     color: #fff;
+    
     
 }
 .big-titlen{
