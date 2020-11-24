@@ -6,6 +6,9 @@
 
 @media screen and (max-width:3072px) {
    
+
+
+
     .kleo{
         background:url(kleo1.png);
         background-size:cover;
@@ -122,7 +125,14 @@
 }
 
 @media screen and (max-width:2560px) {
-   
+
+    .kleomob1, 
+    .kleomob2,
+    .kleomob3,
+    .kleomob4 {
+        opacity:0;
+    }
+
     .kleo{
         background:url(kleo1.png);
         background-size:cover;
@@ -238,6 +248,8 @@
 }
 
 @media screen and (max-width:1280px) {
+
+
 
 .kleo{
     background:url(kleo1.png);
@@ -359,6 +371,46 @@ a{
 
 .title{
     font-size:2rem;
+}
+
+}
+
+/*mobile settings*/
+@media screen and (max-width:500px) {
+
+    .kleo{
+        background:url(kleomob1.png);
+        background-size:cover;
+        height:100vh;
+        width:100%;
+        z-index:-3;
+    }
+
+
+.kleo2{
+    background:url(kleomob2.png);
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    z-index:-3;
+}
+
+
+.kleo3{
+    background:url(kleomob3.png);
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    z-index:-3;
+}
+
+
+.kleo4{
+    background:url(kleomob4.png);
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    z-index:-3;
 }
 
 
