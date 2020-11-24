@@ -46,7 +46,7 @@
     background-size:cover;
     width:100%;
     z-index:1;
-    height:100vh;
+    height:2000px;
 }
 
 
@@ -55,21 +55,21 @@
     background-size:cover;
     width:100%;
     z-index:1;
-    height:100vh;
+    height:2000px;
 }
 .kleomob3{
     background:url(kleomob3.png);
     background-size:cover;
     width:100%;
     z-index:1;
-    height:100vh;
+    height:2000px;
 }
 .kleomob4{
     background:url(kleomob4.png);
     background-size:cover;
     width:100%;
     z-index:1;
-    height:100vh;
+    height:1900px;
 }
 
 
