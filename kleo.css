@@ -30,6 +30,10 @@
     height:120vh;
 }
 
+masthead-brand{
+    position:fixed;
+    padding:5%;
+}
 
 .kleo4{
     background:url(kleo4.png);
