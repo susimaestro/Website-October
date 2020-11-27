@@ -80,7 +80,7 @@ masthead-brand{
 /* MOBILE */
 
 .kleomob1{
-    background:url(kleomob1.png);
+    background:url(mobpiercy1.png);
     background-size:cover;
     width:100%;
     z-index:1;
@@ -90,27 +90,12 @@ masthead-brand{
 
 
 .kleomob2{
-    background:url(kleomob2.png);
+    background:url(mobpiercy2.png);
     background-size:cover;
     width:100%;
     z-index:1;
     height:2000px;
 }
-.kleomob3{
-    background:url(kleomob3.png);
-    background-size:cover;
-    width:100%;
-    z-index:1;
-    height:2000px;
-}
-.kleomob4{
-    background:url(kleomob4.png);
-    background-size:cover;
-    width:100%;
-    z-index:1;
-    height:1900px;
-}
-
 
 
 
