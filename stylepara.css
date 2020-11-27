@@ -66,10 +66,27 @@ body{
         right: 0;
         z-index: 19;
     }
+
+    .titlepiercy{
+        position: absolute;
+        bottom: -40%;
+        width: 900px;
+        right: 0;
+        z-index: 19;
+    }
     .kleodisp{
         position: absolute;
         bottom: -60%;
         width: 50%;
+        right: 30%;
+        z-index: 20;
+        margin-left:100px;
+    }
+
+    .textpiercy{
+        position: absolute;
+        bottom: -120%;
+        width: 90%;
         right: 30%;
         z-index: 20;
         margin-left:100px;
