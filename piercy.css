@@ -33,6 +33,7 @@
 masthead-brand{
     position:fixed;
     padding:5%;
+    z-index:40;
 }
 
 .kleo4{
