@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+.kleo1{
+    background:url(piercy1.png);
+    background-size:cover;
+    width:100%;
+    z-index:1;
+    height:120vh;
+    margin-top:-50px;
+}
+
+.kleo2{
+    background:url(piercy\ 2.png);
+    background-size:cover;
+    width:100%;
+    z-index:1;
+    height:120vh;
+}
+
+
+.kleo3{
+    background:url(piercy3.png);
+    background-size:cover;
+    width:100%;
+    z-index:1;
+    height:120vh;
+}
+
+masthead-brand{
+    position:fixed;
+    padding:5%;
+}
+
+.kleo4{
+    background:url(piercy4.png);
+    background-size:cover;
+    width:100%;
+    z-index:1;
+    height:120vh;
+}
+
+.kleo5{
+    background:url(piercy5.png);
+    background-size:cover;
+    width:100%;
+    z-index:1;
+    height:120vh;
+}
+
+
+.kleo6{
+    background:rgb(43, 43, 43);
+    height:120vh;
+    width:100%;
+    z-index:1;
+    color: white;
+} 
+
+.kleo6 h1{
+    padding:12%;
+    font-family:Piercy;
+    font-size:3rem;
+}
+
+.kleo6 a{
+    font-size:5rem;
+}
+
+@font-face {
+    font-family: Piercy;
+    src: url(Piercy.otf);
+  }
+    
+
+
+/* MOBILE */
+
+.kleomob1{
+    background:url(kleomob1.png);
+    background-size:cover;
+    width:100%;
+    z-index:1;
+    height:2000px;
+    margin-top:-50px;
+}
+
+
+.kleomob2{
+    background:url(kleomob2.png);
+    background-size:cover;
+    width:100%;
+    z-index:1;
+    height:2000px;
+}
+.kleomob3{
+    background:url(kleomob3.png);
+    background-size:cover;
+    width:100%;
+    z-index:1;
+    height:2000px;
+}
+.kleomob4{
+    background:url(kleomob4.png);
+    background-size:cover;
+    width:100%;
+    z-index:1;
+    height:1900px;
+}
+
+
+
+
+
+.cursor{
+    width:3rem;
+    height:3rem;
+    border:2px solid #917d7a;
+    background-color:#917d7a;
+    border-radius:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    pointer-events:none;
+    transition:all 0.3s ease;
+    transition-property:background, transform;
+    transform-origin: 100% 100%;
+    z-index:5;
+    backdrop-filter:blur(3px);
+}   
+
+.container-footer{
+    width:100%;
+    padding:100px;
+    margin: 0 auto;
+    padding-top:150px;
+    padding-bottom:50px;
+    background-color:black;
+    color:white;
+    font-size:2rem;
+    
+}
+
+.title{
+    font-size:3rem;
+}
+
+
+
+
+
+a:hover{
+    opacity:1;
+    color:lightblue;
+    text-decoration:none;
+}
+
+.images img{
+    width:15%;
+}
+
+.images{
+    width:100%;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+    transition:0.5s ease-in-out;
+    font-size:1.5rem;
+
+}
+
+.text{
+    font-size:2rem;
+}
+
+.title{
+    font-size:2rem;
+}
+
+
+
+
