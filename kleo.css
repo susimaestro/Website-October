@@ -45,6 +45,7 @@ masthead-brand{
 
 
 /* MOBILE */
+@media screen and (max-width:720px){ 
 
 .kleomob1{
     background:url(kleomob1.png);
@@ -77,7 +78,7 @@ masthead-brand{
     z-index:1;
     height:1900px;
 }
-
+}
 
 
 
