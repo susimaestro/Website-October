@@ -1301,7 +1301,7 @@ body {
 .circleinsta{
     position: absolute;
     width: 80%;
-    bottom: -60%;
+    bottom: -80%;
     left: 0%;
     z-index: 2;
 }
@@ -1309,7 +1309,7 @@ body {
 .titleinsta{
     position: absolute;
     width: 80%;
-    bottom: -250%;
+    bottom: -290%;
     left: 0%;
     z-index: 20;   
 }
