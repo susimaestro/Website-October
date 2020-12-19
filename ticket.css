@@ -218,18 +218,7 @@ body{
         transform: translateY(8px);
     }
     
-    .big-title{
-        position: absolute;
-        z-index: 30;
-        line-height: 2.5rem;
-        top: calc(-20% - 2rem);
-        width: 100%;
-        text-align: center;
-        font-size: 2rem;
-        font-weight: 600;
-        color: #fff;
-        
-    }
+    
     
     .big-titlet{
         position: absolute;
@@ -461,24 +450,11 @@ body{
     
         padding-top:150px;
         padding-bottom:50px;
-        color:black;
+        color:white;
         
     }
     
     
-    
-    .container-tif{
-        max-width: 70rem;
-        margin:0;
-        padding:0;
-        height:100vh;
-      
-    }
-    .container-kleo{
-        max-width: 70rem;
-        height:100vh;
-      
-    }
     
     
     header{
@@ -506,14 +482,7 @@ body{
         right: 0;
         z-index: 19;
     }
-    .kleodisp{
-        position: absolute;
-        bottom: -50%;
-        width: 30%;
-        right: 60%;
-        z-index: 20;
-        margin-left:100px;
-    }
+  
     
     
     .person{
@@ -523,22 +492,7 @@ body{
         left: -10%;
         z-index: 17;
     }
-    .kleotext{
-        position: absolute;
-        width: 500px;
-        bottom: -100px;
-        left: 250px;
-        z-index: 20;
-    }
-    
-    
-    .tiffin2{
-        position: absolute;
-        width: 40%;
-        bottom: 20%;
-        left: 10%;
-        z-index: 20;
-    }
+  
     
     
     .mountain2{
@@ -549,9 +503,7 @@ body{
         z-index: 18;
     }
     
-    .nos1{
-       left:340px;
-    }
+   
     
     .mountain3{
         position: absolute;
@@ -560,20 +512,7 @@ body{
         right: 0;
         z-index: 17;
     }
-    .tiffin1{
-        position: absolute;
-        width: 80%;
-        bottom: 60%;
-       right:-5%;
-        z-index: 17;
-    }
-    .nos1{
-        position: absolute;
-        width: 60%;
-        bottom: 30%;
-        right: 0;
-        z-index: 17;
-    }
+ 
     
     
     .sky{
@@ -654,33 +593,7 @@ body{
         
     }
     
-    .big-titlet{
-        position: absolute;
-        z-index: 30;
-        line-height: 2.5rem;
-        top: calc(50% - 2rem);
-        width: 50%;
-        margin-left:10%;
-        text-align: left;
-        font-size: 2rem;
-        font-weight: 600;
-        color: #fff;
-        
-        
-    }
-    .big-titlen{
-        position: absolute;
-        z-index: 30;
-        line-height: 2.5rem;
-        top: calc(50% - 2rem);
-        width: 900px;
-        text-align: left;
-        font-size: 2rem;
-        font-weight: 600;
-        color: #fff;
-        padding-left:15%;
-        
-    }
+   
     
     section{
         width: 100%;
@@ -794,13 +707,7 @@ body{
         width:100%;
         padding-left:15%;
     }
-    .mountain3n{
-        position: absolute;
-        width: 500px;
-        bottom: 400px;
-        right: 0;
-        z-index: 17;
-    }
+  
     
     button{
         padding-left:20px;
@@ -808,58 +715,10 @@ body{
         border-radius:30px;
     }
     
-    .titlef{
-        font-size:1.5rem;
-        padding-left:15%;
-    }
+  
+  
     
-    
-    .friend1{
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-       
-        z-index: 16;
-    }
-    
-    .friend3{
-        position: absolute;
-        width:100%;
-        right:0;
-        bottom: 150px;
-        z-index: 21;
-    }
-    .friend2{
-        position: absolute;
-        width: 100%;
-        bottom: 10px;
-        left: 0;
-        z-index: 22;
-    }
-    
-    .friend{
-        position: absolute;
-        width: 300px;
-        bottom: -200px;
-        left: 0px;
-        z-index: 25;
-    }
-    
-    .porto1{
-        position: absolute;
-        width: 20rem;
-        bottom:15rem;
-        left: 25rem;
-        z-index: 10;
-    }
-    
-    .porto2{
-        position: absolute;
-        width: 20rem;
-        bottom:-10rem;
-        left: 55rem;
-        z-index: 10;
-    }
+  
     body {
         width:100%;
     }
@@ -893,18 +752,7 @@ body{
 
 
 
-.container-tif{
-    max-width: 70rem;
-    margin:0;
-    padding:0;
-    height:100vh;
-  
-}
-.container-kleo{
-    max-width: 70rem;
-    height:100vh;
-  
-}
+
 
 
 header{
@@ -932,14 +780,7 @@ header:after{
     right: 0;
     z-index: 19;
 }
-.kleodisp{
-    position: absolute;
-    bottom: -100%;
-    width: 30%;
-    right: 60%;
-    z-index: 20;
-    margin-left:100px;
-}
+
 
 
 .person{
@@ -949,22 +790,7 @@ header:after{
     left: -10%;
     z-index: 17;
 }
-.kleotext{
-    position: absolute;
-    width: 500px;
-    bottom: -100px;
-    left: 250px;
-    z-index: 20;
-}
 
-
-.tiffin2{
-    position: absolute;
-    width: 40%;
-    bottom: 5%;
-    left: 10%;
-    z-index: 20;
-}
 
 
 .mountain2{
@@ -973,10 +799,6 @@ header:after{
     bottom: -100px;
     left: 300;
     z-index: 18;
-}
-
-.nos1{
-   left:500px;
 }
 
 .mountain3{
@@ -1067,46 +889,8 @@ nav .container{
     transform: translateY(8px);
 }
 
-.big-title{
-    position: absolute;
-    z-index: 30;
-    line-height: 2rem;
-    top: calc(50% - 2rem);
-    width: 100%;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #fff;
-    
-}
 
-.big-titlet{
-    position: absolute;
-    z-index: 30;
-    line-height: 2.5rem;
-    top: calc(50% - 2rem);
-    width: 50%;
-    margin-left:10%;
-    text-align: left;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #fff;
-    
-    
-}
-.big-titlen{
-    position: absolute;
-    z-index: 30;
-    line-height: 2.5rem;
-    top: calc(50% - 2rem);
-    width: 900px;
-    text-align: left;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #fff;
-    padding-left:15%;
-    
-}
+
 
 section{
     width: 100%;
@@ -1122,14 +906,7 @@ section .container{
     justify-content: center;
     min-height: 100vh;
 }
-section .containern{
-    padding: 3rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
+
 
 section img{
     width: 100%;
@@ -1158,28 +935,7 @@ section .containern > *{
     position: relative;
 }
 
-.border{
-    position: absolute;
-    width: 0%;
-    height: 3px;
-    background-color: #fff;
-    bottom: 0;
-    left: 0;
-}
 
-.shadow{
-    position: absolute;
-    bottom: 100%;
-    height: 300px;
-    width: 100%;
-    left: 0;
-    z-index: 20;
-    background: linear-gradient(to top, #151515, transparent);
-}
-
-.opacity{
-    opacity: 0;
-}
 
 
 
@@ -1220,121 +976,193 @@ a:hover{
     width:100%;
     padding-left:15%;
 }
-.mountain3n{
-    position: absolute;
-    width: 500px;
-    bottom: 400px;
-    right: 0;
-    z-index: 17;
-}
-
-button{
-    padding-left:20px;
-    padding-right:20px;
-    border-radius:30px;
-}
-
-.titlef{
-    font-size:1.5rem;
-    padding-left:15%;
-}
 
 
-.friend1{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-   
-    z-index: 16;
-}
 
-.friend3{
-    position: absolute;
-    width:100%;
-    right:0;
-    bottom: 150px;
-    z-index: 21;
-}
-.friend2{
-    position: absolute;
-    width: 100%;
-    bottom: 10px;
-    left: 0;
-    z-index: 22;
-}
-
-.friend{
-    position: absolute;
-    width: 300px;
-    bottom: -200px;
-    left: 0px;
-    z-index: 25;
-}
-
-.porto1{
-    position: absolute;
-    width: 20rem;
-    bottom:15rem;
-    left: 35rem;
-    z-index: 10;
-}
-
-.porto2{
-    position: absolute;
-    width: 20rem;
-    bottom:-10rem;
-    left: 55rem;
-    z-index: 10;
-}
 body {
     width:100%;
 }
 
-.text{
-    font-size:1rem;
-    padding-left:15%;
-}
 
-
-}
-
-.circleinsta{
+.big-title{
     position: absolute;
-    width: 80%;
-    bottom: -80%;
-    left: 0%;
-    z-index: 2;
-}
-
-.titleinsta{
-    position: absolute;
-    width: 80%;
-    bottom: -290%;
-    left: 0%;
-    z-index: 20;   
-}
- 
-.bkginsta{
-    position: absolute;
+    z-index: 30;
+    line-height: 2.5rem;
+    top: calc(20% - 2rem);
     width: 100%;
-    height:100vh;
-  
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    
 }
 
 
+.overview{
+    background:url(ticketbkg.png);
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    color:black;
+    font-weight:200;
+}
+
+.overview h1{
+    padding-top:20%;
+    padding-left:8%;
+    padding-right:20%;
+}
+
+.overview p{
+    padding-top:2%;
+    padding-left:8%;
+    padding-right:20%;
+   
+}
 
 .ticket1{
-    position: absolute;
-    width: 70rem;
-    bottom:15rem;
-    left: 20rem;
-    z-index: 10;
+    background:url(ticketbkg1.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
 }
 
 .ticket2{
-    position: absolute;
-    width: 65rem;
-    bottom:0rem;
-    left: 22rem;
-    z-index: 10;
+    background:url(ticketbkg2.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
+
+.ticket3{
+    background:url(ticketbkg3.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
+
+.ticket4{
+    background:url(ticketbkg4.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
+
+.ticket5{
+    background:url(ticketbkg5.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
+
+.ticket6{
+    background:url(ticketbkg6.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
+
+.ticket7{
+    background:url(ticketbkg7.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
+
+
+.ticket8{
+    background:url(ticketbkg8.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
+
+
+.ticket9{
+    background:url(ticketbkg9.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
+
+.ticket10{
+    background:url(ticketbkg10.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
+
+
+.ticket11{
+    background:url(ticketbkg11.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
+
+
+.graphic{
+    background:url(ticketgraphic.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
+
+.video{
+   width:100%;
+   height:100vh;
+}
+
+
+.ticket12{
+    background:url(ticketbkg12.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
+
+.ticket13{
+    background:url(ticketbkg13.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
+
+.ticket14{
+    background:url(ticketbkg14.png);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+}
+
+a{
+    color:black;
+}
+
+.container-footer{
+    color:black;
+}
+
+.masthead-brand{
+    color:rgb(50, 49, 49);
+    background-color:black;
+    margin-left:2%;
+   
+    position:fixed;
+    text-decoration:none;
+}
+
+.masthead-brand a:hover{
+ 
+    text-decoration:none;
+}
+.masthead-brand a{
+    color:rgb(48, 48, 48);
+    position:fixed;
+    text-decoration:none;
+}
+
+.masthead-brand a:hover{
+
+    text-decoration:none;
 }
