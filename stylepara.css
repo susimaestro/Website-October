@@ -127,7 +127,8 @@ body{
     }
     
     .nos1{
-       left:500px;
+      
+        padding-left:10rem;
     }
     
     .mountain3{
@@ -150,6 +151,7 @@ body{
         bottom: 30%;
         right: 0;
         z-index: 17;
+        padding-left:20rem;
     }
     
     
@@ -550,7 +552,7 @@ body{
     }
     
     .nos1{
-       left:340px;
+        padding-left:10rem;
     }
     
     .mountain3{
@@ -573,6 +575,7 @@ body{
         bottom: 30%;
         right: 0;
         z-index: 17;
+        padding-left:10rem;
     }
     
     
@@ -849,7 +852,7 @@ body{
         position: absolute;
         width: 20rem;
         bottom:15rem;
-        left: 25rem;
+        left: 35rem;
         z-index: 10;
     }
     
@@ -976,7 +979,8 @@ header:after{
 }
 
 .nos1{
-   left:500px;
+   left:50rem;
+   padding-left:20rem;
 }
 
 .mountain3{
@@ -998,6 +1002,7 @@ header:after{
     width: 60%;
     bottom: 30%;
     right: 0;
+    padding-left:20rem;
     z-index: 17;
 }
 
@@ -1309,7 +1314,7 @@ body {
 .titleinsta{
     position: absolute;
     width: 80%;
-    bottom: -290%;
+    bottom: -250%;
     left: 0%;
     z-index: 20;   
 }
